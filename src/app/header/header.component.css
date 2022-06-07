@@ -1,0 +1,131 @@
+header {
+  height: 328px;
+  display: flex;
+  column-gap: 20px;
+  flex-direction: row;
+}
+.logo {
+  /*  5 comumn * 70px  = 350px + 20px gap  * 4 = 340px         */
+  width: 430px;
+  height: 328px;
+  animation: logo-l 2s ease;
+}
+@keyframes logo-l {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.m {
+  color: #ffffff;
+  /*  4 column * 70 + 20px gap * 3 = 340px */
+  width: 340px;
+  height: 328px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  animation: mm 2s ease;
+}
+@keyframes mm {
+  0% {
+    transform: translateY(-1000%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.nom {
+  color: white;
+  text-transform: uppercase;
+  font-size: 64px;
+  animation: shake 2s ease;
+}
+.prenom {
+  color: #0101ff;
+  text-transform: uppercase;
+  font-size: 64px;
+  animation: shake 2s ease;
+}
+.text {
+  color: white;
+  font-size: 36px;
+  animation: shake 2s ease;
+}
+.sociaux {
+  animation: shake2 2s ease;
+}
+@keyframes shake2 {
+  0% {
+    transform: translateX(10000%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-facebook {
+  background: #3b5998;
+  border-radius: 20%;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  border-radius: 20%;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  border-radius: 20%;
+  color: white;
+}
+.fa-pinterest {
+  background: #cb2027;
+  border-radius: 20%;
+  color: white;
+}
+.gsm {
+  width: 250px;
+  height: 328px;
+  margin-right: 0 !important;
+  font-size: 24px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  animation: shake1 3s ease;
+}
+@keyframes shake1 {
+  0% {
+    transform: translateX(10000%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.p1 {
+  color: white;
+  text-align: start;
+  align-self: center;
+  font-size: 24px;
+}
+.p2 {
+  color: white;
+  text-align: start;
+  align-self: center;
+  font-size: 24px;
+}
+.separator {
+  height: 20px;
+  width: auto;
+}

@@ -1,0 +1,71 @@
+nav {
+  height: 70px;
+  width: 700px;
+  margin: 0 auto !important;
+  justify-content: center;
+  align-items: center;
+  animation: nav-ani 4s ease;
+}
+@keyframes nav-ani {
+  0% {
+    transform: translateY(10000%);
+  }
+  100% {
+    transform: translatey(0);
+  }
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+ul li:hover {
+  position: relative;
+  animation: 0.8s h infinite alternate;
+}
+ul li a {
+  color: white;
+  font-size: 36px;
+  text-decoration: none;
+}
+a:hover {
+  color: #0101ff;
+  position: relative;
+  animation: 0.8s h infinite alternate;
+}
+@keyframes h {
+  0% {
+    transform: skewX(-15deg);
+  }
+  5% {
+    transform: skewX(15deg);
+  }
+  10% {
+    transform: skewX(-15deg);
+  }
+  15% {
+    transform: skewX(15deg);
+  }
+  20% {
+    transform: skewX(0deg);
+  }
+  100% {
+    transform: skewX(0deg);
+  }
+}
+@keyframes shake {
+  0% {
+    transform: translateX(-10000%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.span1,
+.span2,
+.span3,
+.span4 {
+  color: #0101ff;
+}
+
+
+

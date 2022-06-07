@@ -1,0 +1,133 @@
+section {
+  display: flex;
+  column-gap: 20px;
+}
+
+.sectionn {
+  /* 10 column * 70  */
+  width: 880px;
+  height: 560px;
+  border: 2px solid;
+  background: rgb(1, 1, 255, 0.5);
+  border-radius: 30px;
+  color: #ffffff;
+  margin: 0 auto;
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #0ba7ac;
+  }
+  25% {
+    background-color: #1be9b680;
+  }
+  50% {
+    background-color: rgba(77, 77, 253, 0.5);
+  }
+  75% {
+    background-color: rgba(108, 108, 247, 0.5);
+  }
+  100% {
+    background-color: #0101ff80;
+  }
+}
+
+.separator1 {
+  width: 70px;
+}
+h1 {
+  width: 135px;
+  height: 70px;
+  margin-left: 360px;
+  margin-bottom: 20px;
+  display: flex;
+  animation: h-ani 5s ease;
+  justify-content: center;
+  align-items: center;
+}
+@keyframes h-ani {
+  0% {
+    transform: translateY(-40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.section-list {
+  display: flex;
+  column-gap: 20px;
+}
+
+.separator-list {
+  width: 67px;
+  height: 340px;
+}
+
+form {
+  width: 340px;
+  height: 435px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.fname {
+  height: 70px;
+  width: 160px;
+  display: flex;
+}
+#fname {
+  height: 40px;
+  align-self: center;
+}
+.lname {
+  height: 70px;
+  display: flex;
+  width: 160px;
+}
+#lname {
+  height: 40px;
+  align-self: center;
+}
+.email {
+  height: 70px;
+  width: 340px;
+  color: white;
+  font-size: 22px;
+  display: flex;
+}
+#email {
+  height: 40px;
+  width: 340px;
+  align-self: center;
+}
+textarea {
+  height: 154px;
+  width: 340px;
+}
+.buttonn {
+  color: white;
+  width: 160px;
+  height: 40px;
+  border: 1px solid;
+  border-radius: 20px;
+  background-color: #30d9cf;
+  text-align: center;
+  padding-top: 10px;
+  align-self: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.buttonn:hover {
+  border: 3px solid #30d9cf;
+  background-color: white;
+  color: #30d9cf;
+}
+.ifram {
+  width: 340px;
+  height: 328px;
+}

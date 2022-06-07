@@ -1,0 +1,22 @@
+<div class="separator"></div>
+<section>
+  <div class="separator1"></div>
+  <div class="sectionn">
+    <h1>Portfolio</h1>
+    <div class="separator"></div>
+    <!-- mes services des langages de développement web -->
+    <div class="section-list">
+
+
+      <div class="list-portfolio">
+        <div class="section1"  *ngFor="let traveau of traveaus">
+          <div class="photo"><img src="assets/images/{{traveau.image}}" class="photo1" alt=""></div>
+          <div class="link1"><a href="{{traveau.url}}">{{traveau.name}}</a></div>
+          <div class="text1">{{traveau.des}}</div>
+        </div>
+      </div>
+      <div class="separator-list"></div>
+    </div>
+  </div>
+  <div class="separator1"></div>
+</section>

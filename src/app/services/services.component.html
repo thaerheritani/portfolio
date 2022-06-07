@@ -1,0 +1,14 @@
+<section>
+  <div class="separator1"></div>
+  <div class="sectionn">
+    <h1>Services</h1>
+    <div class="separator"></div>
+    <div class="f">
+    <div class="servicesList" *ngFor="let service of services ">
+      <div><img src="assets/images/{{service.image}}"></div>
+      <div class="pro1"><progress class="pro1" value="{{service.p}}" max="100"></progress></div>
+    </div>
+    </div>
+  </div>
+  <div class="separator1"></div>
+</section>

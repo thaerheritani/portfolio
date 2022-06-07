@@ -1,0 +1,171 @@
+section {
+  display: flex;
+  column-gap: 20px;
+}
+
+.sectionn {
+  /* 10 column * 70  */
+  width: 880px;
+  height: 560px;
+  border: 2px solid;
+  background: rgb(1, 1, 255, 0.5);
+  border-radius: 30px;
+  color: #ffffff;
+  margin: 0 auto;
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #0ba7ac;
+  }
+  25% {
+    background-color: #1be9b680;
+  }
+  50% {
+    background-color: rgba(77, 77, 253, 0.5);
+  }
+  75% {
+    background-color: rgba(108, 108, 247, 0.5);
+  }
+  100% {
+    background-color: #0101ff80;
+  }
+}
+
+.separator1 {
+  width: 70px;
+}
+h1 {
+  width: 135px;
+  height: 70px;
+  margin-left: 360px;
+  margin-bottom: 20px;
+  display: flex;
+  animation: h-ani 5s ease;
+  justify-content: center;
+  align-items: center;
+}
+@keyframes h-ani {
+  0% {
+    transform: translateY(-40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.section-list {
+  display: flex;
+  column-gap: 20px;
+}
+
+.separator-list {
+  width: 67px;
+  height: 340px;
+}
+
+.photo-list1 > img {
+  width: 70px;
+  height: 67px;
+  transition: transform 0.7s ease-in-out;
+  animation: img-ani 5s ease;
+}
+@keyframes img-ani {
+  0% {
+    transform: translateX(1900%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.photo-list1 > img:hover {
+  transform: rotate(360deg);
+}
+.photo-list1 {
+  height: 340px;
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.photo-list2 > img {
+  width: 70px;
+  height: 67px;
+  transition: transform 0.7s ease-in-out;
+  animation: img2-ani 5s ease;
+}
+@keyframes img2-ani {
+  0% {
+    transform: translateX(-2000%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.photo-list2 > img:hover {
+  transform: rotate(360deg);
+}
+.photo-list2 {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.prog-list1 {
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  animation: pro-ani 5s ease;
+}
+@keyframes pro-ani {
+  0% {
+    transform: translateX(1900%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.pro1,
+.pro2,
+.pro3,
+.pro4,
+.pro5,
+.pro6,
+.pro7 {
+
+
+  align-self: center;
+}
+.prog-list2 {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  animation: pro2-ani 5s ease;
+}
+@keyframes pro2-ani {
+  0% {
+    transform: translateX(-2000%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.servicesList{
+  margin: 0 auto;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.f{
+overflow: scroll;
+  height: 462px;
+}
+

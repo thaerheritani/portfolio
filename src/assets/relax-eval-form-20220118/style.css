@@ -1,0 +1,401 @@
+/** @format */
+/* pour toute les contnus dans  la page */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+/* tous les liens sans text decoration */
+a {
+	text-decoration: none;
+}
+/* background-image reste tous le temps meme si on va dézoomer la page  */
+header {
+	background-image: url(images/17.jpg);
+	height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+h1 {
+	position: absolute;
+	text-transform: uppercase;
+	color: white;
+	top: 38px;
+	font-size: 50px;
+	font-family: "Overpass", sans-serif;
+}
+
+.imgg {
+	width: 1280px;
+	margin: 0 auto;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+/* 
+**************
+     nav
+***********	 
+*/
+
+nav {
+	width: 1280px;
+	height: 50px;
+	margin: 60px auto;
+}
+
+nav ul {
+	border: 1px solid;
+	width: 600px;
+	background-color: #ede6de;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav a {
+	text-decoration: none;
+	font-family: "Cutive Mono", monospace;
+}
+
+/* 
+les images dans le header
+*/
+
+.cadre1 {
+	height: 626px;
+	position: absolute;
+	left: 562px;
+	top: 43px;
+	z-index: 10;
+	transform: rotate(6deg);
+}
+.imgA {
+	position: relative;
+}
+
+.img2 {
+	position: absolute;
+	height: 250px;
+	top: 74px;
+	left: 612px;
+	transform: rotate(6deg);
+	z-index: 5;
+}
+
+.img3 {
+	transform: rotate(8deg);
+	position: absolute;
+	left: 696px;
+	top: 316px;
+	height: 316px;
+	z-index: 1;
+}
+
+.imgB {
+	position: relative;
+}
+
+.cadre2 {
+	position: absolute;
+	height: 500px;
+	left: 869px;
+	top: 100px;
+	transform: rotate(351deg);
+}
+
+.img4 {
+	position: absolute;
+	height: 327px;
+	left: 914px;
+	top: 161px;
+	transform: rotate(351deg);
+}
+.img5 {
+	position: absolute;
+	height: 268px;
+	left: 829px;
+	z-index: 20;
+	width: 432px;
+	top: 5px;
+}
+
+.img6 {
+	position: absolute;
+	left: 524px;
+	top: 240px;
+}
+
+.img7 {
+	z-index: 25;
+	position: absolute;
+	height: 143px;
+	left: 836px;
+	top: 489px;
+}
+
+/* 
+***************
+
+       1er section
+
+***************	   
+*/
+
+.med-section {
+	width: 1192px;
+	height: 400px;
+	margin: 0px auto;
+	display: grid;
+	grid-template-columns: repeat(12, 81px);
+	column-gap: 20px;
+	position: relative;
+	background-color: white;
+}
+
+h2 {
+	grid-column: 6 / 12;
+	height: 50px;
+	font-family: "Overpass", sans-serif;
+}
+
+h3 {
+	grid-column: 6 / 12;
+	height: 50px;
+	width: 586px;
+	position: absolute;
+	bottom: 288px;
+	font-family: "Qwigley", cursive;
+	font-size: 50px;
+	font-weight: 220;
+	border-bottom: 2px solid;
+}
+
+p {
+	position: absolute;
+	font-family: "DM Serif Display", serif;
+	grid-column: 6 / 12;
+	height: 100px;
+	font-size: 15px;
+	top: 170px;
+	letter-spacing: 2px;
+}
+.p1 {
+	position: absolute;
+	left: -505px;
+	top: 96px;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+button {
+	grid-column: 6;
+	height: 50px;
+	position: absolute;
+	top: 276px;
+	width: 125px;
+	font-size: 12px;
+}
+
+button:hover {
+	background-color: #f7cb83;
+}
+
+.imgC {
+	position: relative;
+}
+
+.img8 {
+	height: 340px;
+	position: absolute;
+	top: -5px;
+	left: -27px;
+	transform: rotate(346deg);
+	grid-column: 2/5;
+}
+
+.img9 {
+	position: absolute;
+	height: 222px;
+	width: 164px;
+	top: 37px;
+	left: 103px;
+	transform: rotate(346deg);
+}
+
+.img10 {
+	height: 340px;
+	position: absolute;
+	top: 49px;
+	left: -13px;
+	transform: rotate(4deg);
+	grid-column: 2/5;
+	z-index: 5;
+}
+
+.img11 {
+	position: absolute;
+	height: 222px;
+	width: 164px;
+	top: 91px;
+	left: 125px;
+	transform: rotate(4deg);
+}
+
+.img12 {
+	position: absolute;
+	right: 1020px;
+	height: 146px;
+	width: 216px;
+	top: 138px;
+}
+
+/* 
+***************
+
+       2eme section
+
+/**************
+*/
+
+.med-section2 {
+	background-image: url(images/watercolor1.png);
+	background-color: #f6f1e9;
+	height: 1000px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.section2 {
+	width: 1192px;
+	height: 1000px;
+	margin: 0px auto;
+	display: grid;
+	grid-template-columns: repeat(12, 81px);
+	column-gap: 20px;
+	position: relative;
+}
+
+.p2 {
+	position: absolute;
+	left: 425px;
+	width: 134px;
+	top: 626px;
+	text-align: center;
+	line-height: 200%;
+	text-transform: uppercase;
+	color: #f9a772;
+	font-weight: 900;
+}
+
+h4 {
+	grid-column: 1/3;
+	font-size: 55px;
+	margin-top: 40px;
+}
+
+.img13 {
+	position: absolute;
+	top: 197px;
+	left: 91px;
+	width: 459px;
+}
+
+.img14 {
+	position: absolute;
+	left: 209px;
+	border: 7px solid #eee2cb;
+	top: 670px;
+}
+
+.img15 {
+	position: absolute;
+	left: 451px;
+	border: 7px solid #eee2cb;
+	top: 669px;
+}
+
+.img16 {
+	position: absolute;
+	left: 699px;
+	top: 200px;
+	height: 511px;
+}
+
+.img17 {
+	position: absolute;
+	left: 722px;
+	top: 233px;
+	height: 378px;
+	width: 323px;
+	z-index: 5;
+}
+
+.img18 {
+	position: absolute;
+	left: 771px;
+	top: 280px;
+	height: 273px;
+	width: 233px;
+	transform: rotate(6deg);
+}
+.img19 {
+	position: absolute;
+	top: 552px;
+	left: -49px;
+}
+
+.img20 {
+	position: absolute;
+	top: 639px;
+
+	left: -111px;
+}
+
+/* 
+**************
+
+         footer
+		 
+***************		 
+*/
+
+footer {
+	height: 80px;
+	background-color: #044355;
+}
+
+.foot {
+	height: 80px;
+	width: 1192px;
+	margin: 0px auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.foot ul {
+	width: 1000px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.foot li {
+	list-style: none;
+	color: white;
+}
+
+.foot a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: #f9a772;
+}
