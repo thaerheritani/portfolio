@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
-  apiUrl: 'http://localhost/portfolio2/api.php',
-  immBaseUrl:'http://localhost/portfolio2/upload/'
+  apiUrl: 'https://heritani.bes-webdeveloper-seraing.be/crud/',
+  immBaseUrl:'https://heritani.bes-webdeveloper-seraing.be/upload'
 };

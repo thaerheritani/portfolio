@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import {AbstractServicesApi} from "./abstract-services-api";
 import {HttpClient, HttpHeaders, HttpResponse} from "@angular/common/http";
 import {Observable} from "rxjs";
+import {environment} from "../../environments/environment";
 
 
 
@@ -9,7 +10,7 @@ import {Observable} from "rxjs";
   providedIn: 'root'
 })
 export class TraveauService extends AbstractServicesApi{
-  ressourceUrl = 'http://localhost/portfolio2/api.php?type=traveau';
+  ressourceUrl = environment.apiUrl + '/api.php?type=traveau';
 
   constructor(private http: HttpClient) {
     super();

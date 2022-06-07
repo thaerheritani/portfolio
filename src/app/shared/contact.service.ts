@@ -3,13 +3,14 @@ import {AbstractServicesApi} from "./abstract-services-api";
 import {HttpClient, HttpHeaders, HttpResponse} from "@angular/common/http";
 import {catchError, Observable} from "rxjs";
 import {Contact} from "./model/contact.module";
+import {environment} from "../../environments/environment";
 
 @Injectable({
   providedIn: 'root'
 })
 
   export class ContactFormService {
-  ressourceUrl = 'http://localhost/portfolio2/api.php?type=contact';
+  ressourceUrl = environment.apiUrl + '/api.php?type=contact';
 
   private httpHeaders = new HttpHeaders({
     'Content-Type':  'application/json',
